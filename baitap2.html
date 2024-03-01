@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Comment Form</title>
+</head>
+<body>
+
+<h2>Email and Comment Form</h2>
+
+<form action="/submit-comment" method="post">
+  <label for="email">Email :</label>
+  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+  <input type="checkbox" id="private" name="private" checked>
+  <label for="private">keep my email private.</label><br><br>
+  <label for="comment">Comment:</label><br>
+  <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+  
+  <input type="submit" value="Send">
+</form>
+
+</body>
+</html>
